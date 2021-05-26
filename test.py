@@ -43,7 +43,7 @@ def load_model(path, input_nc, output_nc):
     return fusion_model
 
 
-def main():
+def main():   
 
     TIME_STAMP = "{0:%Y-%m-%dT-%H-%M-%S/}".format(datetime.now())
     out_image_path = r"results/model_{}".format(TIME_STAMP)

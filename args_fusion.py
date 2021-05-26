@@ -1,10 +1,10 @@
 
 class args():
 
-	# 使用双卡训练时设置为True
+	# 
 	mult_device = False
 
-	epochs = 70  # "number of training epochs, default is 2"
+	epochs = 70  # "number of training epochs, default is 70"
 	if mult_device:
 		batch_size = 16  # "batch size for training, default is 16"
 		batch_size_eval = 1

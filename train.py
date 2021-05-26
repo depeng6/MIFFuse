@@ -169,7 +169,7 @@ def train(writer_train, writer_val, parse, train_state=None):
 
             optimizer.zero_grad()
             outputs = fusion_model(img_ir, img_vis)
-
+   
             img_gt = Variable(img_gt.data.clone(), requires_grad=False)
 
             ssim_loss_gt = 1 - ssim_loss(outputs, img_gt, normalize=True)
@@ -207,7 +207,7 @@ def train(writer_train, writer_val, parse, train_state=None):
 
                     checkpoint = {
                         'epoch': e,
-                        'model_state_dict': fusion_model.state_dict(),
+                        'model_state_dict': fusion_model.state_dict(),  
                         'optimizer_state_dict': optimizer.state_dict(),
                     }
                     save_model_filename = temp_path_model + "/" + args.model_name + "epoch_" + str(e + 1) + "_" + \

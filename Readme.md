@@ -16,5 +16,5 @@ This code is for "MIFFuse：#####################################"
 
  - train: Training code  on the dataset.
  - test: Test the model on TNO/CVC_14/Flir dataset
- - MIF_net: MIFFufuse architecture
+ - MIF_net: MIFFufuse architecture  
 
