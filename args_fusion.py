@@ -1,32 +1,31 @@
 
 class args():
 
-	# 
 	mult_device = False
 
-	epochs = 70  # "number of training epochs, default is 70"
+	epochs = 60  # "number of training epochs, default is 70"
 	if mult_device:
-		batch_size = 16  # "batch size for training, default is 16"
+		batch_size = 8  # "batch size for training, default is 16"
 		batch_size_eval = 1
 		batch_size_test = 1
 		nrows = 16
 	else:
-		batch_size = 6
+		batch_size = 4
 		nrows = 8
 		batch_size_eval = 1
 		batch_size_test = 1
 
-	train_ir_list = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\image_txt\imagelist_1.txt"
-	train_vis_list = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\image_txt\imagelist_2.txt"
-	train_gt_list = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\image_txt\imagelist_gt.txt"
+	train_ir_list = r"./image\Flickr2K\Flickr2K\train_txt\imagelist_1.txt"
+	train_vis_list = r"./image\Flickr2K\Flickr2K\train_txt\imagelist_2.txt"
+	train_gt_list = r"./image\Flickr2K\Flickr2K\train_txt\imagelist_gt.txt"
 
-	model_name = "test"
-	train_ir_dir = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\train\image_1_gas_nis_gam2"
-	train_vis_dir = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\train\image_2_gas_nis_gam2"
-	train_gt_dir = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\train\GT"
+	model_name = "MIFFuse"
+	train_ir_dir = r"./image/Flickr2K/Flickr2K/input1"
+	train_vis_dir = r"./image/Flickr2K/Flickr2K/input2"
+	train_gt_dir = r"./image/Flickr2K/Flickr2K/GT"
 
-	eval_ir_dir = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\valid\IR_1"
-	eval_vis_dir = r"F:\Doctor_File\Image_fusion\Dense_Fuse\Fusion_image\image_blur_dataset\valid/VIS_1"
+	eval_ir_dir = r"./image/TNO/TNO_IR"
+	eval_vis_dir = r"./image/TNO/TNO_VI"
 
 	save_model_dir = "models"
 	save_loss_dir = "models/loss"
