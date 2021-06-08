@@ -41,6 +41,25 @@ def list_images(directory):
         names.append(name1[0])
     return images
 
+def list_images_UV(directory):
+    images = []
+    names = []
+    dir = os.listdir(directory)
+    dir.sort(key=lambda x:int(x[3:-6]))
+    for file in dir:
+        name = file.lower()
+        if name.endswith('.png'):
+            images.append(join(directory, file))
+        if name.endswith('.bmp'):
+            images.append(join(directory, file))
+        elif name.endswith('.jpg'):
+            images.append(join(directory, file))
+        elif name.endswith('.jpeg'):
+            images.append(join(directory, file))
+        name1 = name.split('.')
+        names.append(name1[0])
+    return images
+
 
 # load training images
 def load_dataset(image_path, BATCH_SIZE, num_imgs=None):

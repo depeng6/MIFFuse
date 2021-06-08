@@ -38,12 +38,15 @@ class args():
 
 	test_ir_dir = r"./image/TNO/TNO_IR"
 	test_vis_dir = r"./image/TNO/TNO_VI"
-
-	# test_ir_dir = r"./image/flir/flir_ir"
-	# test_vis_dir = r"./image/flir/Y_channel"
-
 	# test_ir_dir = r"./image/CVC_14/IR"
 	# test_vis_dir = r"./image/CVC_14
+
+	test_rgb_ir_dir = r"./image/Flir/flir_ir"
+	test_rgb_vis_dir = r"./image/Flir/Y_channel"
+	rgb_U_path = r'./image/Flir/vis_YUV/U_channel'
+	rgb_V_path = r'./image/Flir/vis_YUV/V_channel'
+
+
 
 
 
