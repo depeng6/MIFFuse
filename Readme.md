@@ -21,4 +21,4 @@ This code is for "MIFFuse: A Multi-level Feature Fusion Network for Infrared and
  - MIF_net: MIFFufuse architecture  
 
 
-If you have any question, please email to me [zhudepeng@mails.cust.edu.cn](zhudepeng@mails.cust.edu.cn)
+If you have any question, please email to me <zhudepeng@mails.cust.edu.cn>
