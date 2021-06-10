@@ -19,3 +19,6 @@ This code is for "MIFFuse: A Multi-level Feature Fusion Network for Infrared and
  - test: Test the model on TNO/CVC_14 dataset
  - test_RGB: Test the model on Flir dataset
  - MIF_net: MIFFufuse architecture  
+
+
+If you have any question, please email to me [zhudepeng@mails.cust.edu.cn](zhudepeng@mails.cust.edu.cn)
