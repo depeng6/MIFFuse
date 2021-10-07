@@ -21,6 +21,7 @@ This code is for "MIFFuse: A Multi-level Feature Fusion Network for Infrared and
  - MIF_net: MIFFufuse architecture  
 
 ## Citation
+```
 @ARTICLE{MIFFuse,
   author={Zhu, Depeng and Zhan, Weida and Jiang, Yichun and Xu, Xiaoyu and Guo, Renzhong},
   journal={IEEE Access}, 
@@ -30,6 +31,6 @@ This code is for "MIFFuse: A Multi-level Feature Fusion Network for Infrared and
   number={},
   pages={130778-130792},
   doi={10.1109/ACCESS.2021.3111905}}
-  
+```
   
 If you have any question, please email to me <zhudepeng@mails.cust.edu.cn>
