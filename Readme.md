@@ -22,15 +22,15 @@ This code is for "MIFFuse: A Multi-level Feature Fusion Network for Infrared and
 
 ## Citation
 ```
-@ARTICLE{IPLF,  
-author={Zhu, Depeng and Zhan, Weida and Jiang, Yichun and Xiaoyu, Xu and Guo, Renzhong},  
-journal={IEEE Sensors Journal},   
-title={IPLF:A Novel Image Pair Learning Fusion Network for Infrared and Visible Image},   
-year={2022},  
-volume={},  
-number={},  
-pages={1-1},  
-doi={10.1109/JSEN.2022.3161733}}
+@ARTICLE{MIFFuse,
+  author={Zhu, Depeng and Zhan, Weida and Jiang, Yichun and Xu, Xiaoyu and Guo, Renzhong},
+  journal={IEEE Access}, 
+  title={MIFFuse: A Multi-Level Feature Fusion Network for Infrared and Visible Images}, 
+  year={2021},
+  volume={9},
+  number={},
+  pages={130778-130792},
+  doi={10.1109/ACCESS.2021.3111905}}
 ```
   
 If you have any question, please email to me <zhudepeng@mails.cust.edu.cn>
